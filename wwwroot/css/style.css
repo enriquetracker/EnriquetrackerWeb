@@ -1,0 +1,153 @@
+/* CSS Theme from the amazing Evan Jones (evanjones.ca) */
+/* Extrememly modified by me at this point lol */
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #181818;
+    border-bottom: solid thin #d6ceba;
+    font-weight: bold;
+}
+
+a:visited {
+    color: #181818;
+    border-bottom: solid thin #d6ceba;
+}
+
+a:hover {
+    color: #fff;
+    border-bottom: none;
+    background: #181818;
+}
+
+a:active {
+    color: #fff;
+    background: #000;
+    border-bottom: dotted thin #d6ceba;
+}
+
+body {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 50em;
+    max-width: 400px;
+    border: hidden #777777;
+    border-width: 5px;
+    font-family: 'Computer Modern Serif', Georgia, Cambria, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #181818;
+    background-image: url("/Images/fractal.png");
+    
+}
+
+#preamble {
+    background: #ffffff;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: ;
+    padding-right: auto;
+    border-bottom: solid #888;
+}
+
+#content {
+    border-bottom: solid #888;
+    padding: 40px;
+    background: #ffffff;
+}
+
+#postamble {
+    text-align: right;
+    border-bottom: solid #888;
+    padding: 10px 40px 10px 40px;
+    background: #ffffff;
+    line-height: 0.5;
+}
+
+table {
+    border: 1px solid black;
+    border-color: #181818;
+    margin: 0 auto;
+}
+
+th, td {
+    border: 1px solid black;
+    border-color: #181818;
+}
+
+h2, h3, h4, h5, h6, .heading, .name {
+    color: #181818;
+    font-style: italic;
+}
+
+header {
+    margin: 0;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1.4;
+}
+
+.title {
+    font-weight: normal;
+    font-size: 250%;
+    line-height: 0;
+}
+.subtitle {
+    font-size: 20px;
+    font-style: italic;
+    margin: 0;
+}
+
+.sitemap {
+    margin: 0;
+}
+
+.me {
+    font-weight: bold;
+    font-style: inherit;
+}
+
+.bibliography {
+    margin-left: 2em;
+    text-indent: -2em;
+}
+
+.quote {
+    color: #333;
+    font-size: 0.8em;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.profile-img {
+    border: solid #777777;
+    border-width: 3px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15em;
+    border-radius: 10%;
+}
+
+img {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#table-of-contents {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 75%;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    padding: 20px;
+    width: auto;
+}
